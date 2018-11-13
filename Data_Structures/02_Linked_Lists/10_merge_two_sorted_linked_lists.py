@@ -34,6 +34,8 @@ def print_singly_linked_list(node, sep, fptr):
 
 
 def mergeLists(head1, head2):
+    if head1 is None and head2 is None:
+        return None
 
     if head1 is None:
         return head2
